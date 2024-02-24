@@ -191,8 +191,10 @@ function PostCard() {
         <p className="my-3 text-sm "></p>
         <div className="rounded-md overflow-hidden">
           <p className="my-1 text-sm">
-            loremloremloremloremlorem loremloremloremlorem loremloremloremlorem
-            loremloremloremlorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum neque
+            tenetur dolor dignissimos! Culpa impedit praesentium dicta, repellat
+            voluptatem ipsam tempore! Sed expedita ex delectus, pariatur autem
+            suscipit eos facilis!
           </p>
           <img
             className="w-full object-cover"

@@ -4,7 +4,6 @@ import Link from "next/link";
 
 function NavigationBar({ card }) {
   const router = useRouter();
-  // console.log(router);
 
   const activeElement =
     "flex gap-4 m-1 py-3 bg-socialBlue text-white -mx-9 px-10 rounded-md shadow-md shadow-gray-300";
@@ -34,7 +33,14 @@ function NavigationBar({ card }) {
           </svg>
           Home
         </Link>
-        <Link className={nonActiveElement} href="">
+        <Link
+          className={
+            router.asPath === "/profile/friends"
+              ? activeElement
+              : nonActiveElement
+          }
+          href={"/profile/friends"}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -51,7 +57,12 @@ function NavigationBar({ card }) {
           </svg>
           Friends
         </Link>
-        <Link className={nonActiveElement} href="">
+        <Link
+          className={
+            router.asPath === "/saved" ? activeElement : nonActiveElement
+          }
+          href="/saved"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -69,7 +80,14 @@ function NavigationBar({ card }) {
           Saved
         </Link>
 
-        <Link className={nonActiveElement} href="">
+        <Link
+          className={
+            router.asPath === "/notifications"
+              ? activeElement
+              : nonActiveElement
+          }
+          href="/notifications"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
