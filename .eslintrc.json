@@ -1,4 +1,5 @@
 {
+  "extends": ["next", "prettier", "eslint:recommended"],
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module",
