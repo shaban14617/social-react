@@ -2,7 +2,6 @@ import Link from "next/link";
 import Avatar from "../components/Avatar";
 import Card from "../components/Card";
 import Layout from "../components/Layout";
-import NavigationBar from "../components/NavigationBar";
 
 function notifications() {
   return (

@@ -1,4 +1,4 @@
-import ProfilePage from "../profilePage";
+import ProfilePage from "../profile";
 
 function posts() {
   return <ProfilePage />;

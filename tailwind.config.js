@@ -13,6 +13,8 @@ module.exports = {
       colors: {
         socialBg: "#F5F7FB",
         socialBlue: "#218DFA",
+        socialPink: "#FF1493",
+        socialK: "#ffff66",
       },
     },
   },

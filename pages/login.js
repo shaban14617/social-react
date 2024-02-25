@@ -10,11 +10,11 @@ function login() {
           <Card noPadding={true}>
             <div className="rounded-md overflow-hidden">
               <a
-                className="flex w-full gap-4 items-center justify-center p-4 border-b border-b-gray-100 hover:bg-socialBlue hover:text-white hover:border-b-0 hover:scale-110 hover:transition-all"
+                className="flex w-full gap-4 items-center justify-center p-4 border-b border-b-gray-100  hover:text-white hover:border-b-0 hover:scale-110 hover:transition-all hover:bg-socialBlue"
                 href="/"
               >
                 <svg
-                  className="h-8"
+                  className="h-8 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 488 512"
                 >
@@ -23,11 +23,11 @@ function login() {
                 Login with Google
               </a>
               <a
-                className="flex w-full gap-4 items-center justify-center p-4 border-b border-b-gray-100 hover:bg-socialBlue hover:text-white hover:border-b-0 hover:scale-110 hover:transition-all"
+                className="flex w-full gap-4 items-center justify-center p-4 border-b hover:text-white border-b-gray-100 hover:border-b-0 hover:scale-110 hover:transition-all hover:bg-socialBlue"
                 href="/"
               >
                 <svg
-                  className="h-8"
+                  className="h-8 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 496 512"
                 >
@@ -36,11 +36,11 @@ function login() {
                 Login with Github
               </a>
               <a
-                className="flex w-full gap-4 items-center justify-center p-4 border-b border-b-gray-100 hover:bg-socialBlue hover:text-white hover:border-b-0 hover:scale-110 hover:transition-all "
+                className="flex w-full gap-4 items-center justify-center p-4 border-b border-b-gray-100   hover:border-b-0 hover:scale-110 hover:transition-all hover:bg-socialBlue hover:text-white"
                 href="/"
               >
                 <svg
-                  className="h-8"
+                  className="h-8 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
                 >

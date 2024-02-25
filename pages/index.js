@@ -7,6 +7,9 @@ export default function Home() {
     <Layout>
       <PostFormCard />
       <PostCard />
+      <PostCard />
+      <PostCard />
+      <PostCard />
     </Layout>
   );
 }
